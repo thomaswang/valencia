@@ -11,8 +11,13 @@ body {
   height: 32px !important;
 }
 
-.fatitem,
-.comment-tree {
+#hnmain > tbody > tr:nth-child(3) > td > div:first-child {
+  text-align: center;
+}
+
+table[border="0"]:not(#hnmain):not(
+    #hnmain > tbody > tr:first-child > td[bgcolor="#ff6600"] > table
+  ) {
   position: relative;
   width: 100% !important;
   max-width: 65ch !important;
