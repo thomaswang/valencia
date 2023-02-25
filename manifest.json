@@ -1,0 +1,23 @@
+{
+  "name": "Valencia",
+  "short_name": "Valencia",
+  "description": "An Exceptional Hacker News Experience",
+  "version": "0.1.2",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://news.ycombinator.com/*"],
+      "css": ["valencia.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["valencia.css"],
+      "matches": ["https://news.ycombinator.com/*"]
+    }
+  ]
+}

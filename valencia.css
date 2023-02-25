@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background-color: #f6f6ef;
+}
+
+#hnmain {
+  width: 100%;
+}
+
+#pagespace {
+  height: 32px !important;
+}
+
+.fatitem,
+.comment-tree {
+  position: relative;
+  width: 100% !important;
+  max-width: 65ch !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.comment-tree * {
+  max-width: 100% !important;
+}
+
+a[href="https://news.ycombinator.com"]
+{
+  display: none;
+}
+
+font[color="#ffffff"] {
+  color: black !important;
+}
+
+td[style="width:18px;padding-right:4px"] {
+  width: 0px !important;
+}
+
+td[bgcolor="#ff6600"] {
+  background-color: #f6f6ef;
+  display: flex;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+td[bgcolor="#ff6600"] span {
+  color: #828282;
+}
+td[bgcolor="#ff6600"] a {
+  color: #828282 !important;
+}
+td[bgcolor="#ff6600"] a:hover {
+  color: black !important;
+}
+td[bgcolor="#ff6600"] > table {
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
