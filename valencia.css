@@ -62,3 +62,9 @@ td[bgcolor="#ff6600"] > table {
   padding-left: 8px !important;
   padding-right: 8px !important;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
