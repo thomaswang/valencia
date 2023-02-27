@@ -15,9 +15,8 @@ body {
   text-align: center;
 }
 
-table[border="0"]:not(#hnmain):not(
-    #hnmain > tbody > tr:first-child > td[bgcolor="#ff6600"] > table
-  ) {
+#hnmain
+  table[border="0"]:not(table table table):not(td[bgcolor="#ff6600"] > table) {
   position: relative;
   width: 100% !important;
   max-width: 65ch !important;
@@ -25,7 +24,7 @@ table[border="0"]:not(#hnmain):not(
   margin-right: auto;
 }
 
-.comment-tree * {
+.comment-tree > tbody tr {
   max-width: 100% !important;
 }
 
